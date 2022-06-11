@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+ 		<listener class-name="testngStepDefinitions.Listeners"/>
+         <listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+  <test  name="LoginFunctionality">
+    <classes>
+      <class name="testngStepDefinitions.LoginFunctionality"/>
+    </classes>
+  </test>
+  <test  name="AddProperty">
+    <classes>
+      <class name="testngStepDefinitions.AddProperty"/>
+    </classes>
+  </test> 
+  <test  name="DeleteProperty">
+    <classes>
+      <class name="testngStepDefinitions.DeleteProperty"/>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
